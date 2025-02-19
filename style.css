@@ -164,3 +164,317 @@ strong{
     color: blue;
     font-size: 1.5rem;
 }
+
+.cdm-restaurant-description{
+    background-image: url("./assets/images/tastypizza.jpg");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover; /* Ensure the image covers the section */
+    background-position: center; 
+    margin: auto;
+}
+
+.inner_cdm-restaurant-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    width: 50%;
+}
+
+.inner_cdm-restaurant-description > h2{
+    font-family: "Abel", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.inner_cdm-restaurant-description > p{
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.gallery > h2{
+    font-family: "Abel", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.gallerygrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ensures at least 3 columns */
+    gap: 10px;
+    margin: 50px;
+}
+
+.img1{
+    grid-column: 1/span 1;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.img2{
+    grid-column: 2/span 1;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.img3{
+    grid-column: 3/span 1;
+    grid-row: 1 / span 3;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.img4{
+    grid-column: 1/span 1;
+    grid-row: 2 / span 3;
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.img5{
+    grid-column: 2/span 1;
+    grid-row: 2/ span 2;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+
+.img6{
+    grid-column: 1/span 1;
+    grid-row: 3/ span 1;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.img7{
+    grid-column: 3/span 1;
+    grid-row: 3/ span 2;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.img8{
+    grid-column: 1/span 1;
+    grid-row: 4/ span 1;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.img9{
+    grid-column: 2/span 1;
+    grid-row: 4/ span 12;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 100px;
+}
+
+.testimonials_people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tstcard img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.tstcard{
+    margin: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tstcard p{
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.tstcard h4{
+    font-family: "Abel", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+.testimonials > h2{
+    font-family: "Abel", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: white;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.events > h2{
+    font-family: "Abel", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.event_cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.event_card h3{
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.event_card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+.event_card img{
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.event_card ul{
+    background-color: rgb(230, 229, 229);
+    padding: 30px;
+    border-radius: 12px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact > h2{
+    font-family: "Abel", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+label{
+    font-family: "Abel", serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+input{
+    font-size: 2rem;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+button{
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: green;
+    font-size: 3rem;
+    padding: 10px 30px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: black;
+    color: green;
+    font-weight: 900;
+}
+
+footer{
+    border-top: 2px solid black;
+    margin-top: 50px;
+    background-color: aquamarine;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
